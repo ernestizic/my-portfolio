@@ -32,7 +32,7 @@ export const IndexPage = () => {
                             </p>
                             <div className='email-phone'>
                                 <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
-                                <p className='phone'> <AiOutlinePhone style={{color: 'orange'}}/> +2349056696641</p>
+                                <p className='phone'> <AiOutlinePhone style={{color: 'orange', fontSize: '20px'}}/> +2349056696641</p>
                             </div>
                         </div>
                         <div className='col-md-5'>
@@ -87,7 +87,7 @@ export const IndexPage = () => {
                             <h2>Reach Out</h2>
                             <p>Need my services? Reach out to me and let's work together.</p>
                             <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
-                            <p className='phone'> <AiOutlinePhone style={{color: 'orange'}}/> +2349056696641</p>
+                            <p className='phone'> <AiOutlinePhone style={{color: 'orange', fontSize: '20px'}}/> +2349056696641</p>
                             <p className='location'> <GoLocation style={{color: 'orange'}}/> Lagos, Nigeria </p>
                         </div>
                         <div className='col-md-6'>
