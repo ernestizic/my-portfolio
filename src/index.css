@@ -97,6 +97,11 @@ body {
 .form-group{
   margin-bottom: 10px;
 }
+
+.alert{
+  margin-top: 10px;
+}
+
 .footer{
   text-align: center;
 }
@@ -119,6 +124,9 @@ body {
   .home{
     padding-top: 40px;
   }
+  .job-title{
+    font-size: 25px;
+  }
 
   .email-phone{
     display: initial;
@@ -132,5 +140,8 @@ body {
   }
   .skill-list {
     font-size: 30px;
+  }
+  #submit-btn{
+    width: 100%;
   }
 }

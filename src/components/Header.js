@@ -5,7 +5,7 @@ export const Header = () => {
     return (
             <nav className="container-fluid navbar navbar-expand-lg">
                 <div className='container main-nav'>
-                    <Link className="navbar-brand" to="/">Ernestizic<span style={{color: 'blue', fontSize:'30px'}}> .</span></Link>
+                    <Link className="navbar-brand" to="/" style={{color: '#fff'}}>Ernest<span style={{color: 'orange'}}>izic</span><span style={{color: 'orange', fontSize:'30px'}}> .</span></Link>
                     <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </span>

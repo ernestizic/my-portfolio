@@ -31,8 +31,8 @@ export const IndexPage = () => {
                                 check out my previous works
                             </p>
                             <div className='email-phone'>
-                                <p className='email'> <AiOutlineMail style={{color: 'rgb(67, 136, 255)'}}/> ieifeanyichukwu@gmail.com</p>
-                                <p className='phone'> <AiOutlinePhone style={{color: 'rgb(67, 136, 255)'}}/> +2349056696641</p>
+                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
+                                <p className='phone'> <AiOutlinePhone style={{color: 'orange'}}/> +2349056696641</p>
                             </div>
                         </div>
                         <div className='col-md-5'>
@@ -86,9 +86,9 @@ export const IndexPage = () => {
                         <div className='col-md-6'>
                             <h2>Reach Out</h2>
                             <p>Need my services? Reach out to me and let's work together.</p>
-                            <p className='email'> <AiOutlineMail style={{color: 'rgb(67, 136, 255)'}}/> ieifeanyichukwu@gmail.com</p>
-                            <p className='phone'> <AiOutlinePhone style={{color: 'rgb(67, 136, 255)'}}/> +2349056696641</p>
-                            <p className='location'> <GoLocation style={{color: 'rgb(67, 136, 255)'}}/> Lagos, Nigeria </p>
+                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
+                            <p className='phone'> <AiOutlinePhone style={{color: 'orange'}}/> +2349056696641</p>
+                            <p className='location'> <GoLocation style={{color: 'orange'}}/> Lagos, Nigeria </p>
                         </div>
                         <div className='col-md-6'>
                             <ContactForm />
