@@ -9,7 +9,7 @@ export const Header = () => {
                     <span className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </span>
-                    <div className="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarText">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
@@ -22,6 +22,11 @@ export const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#contactme">Contact</a>
+                            </li>
+                        </ul>
+                        <ul className="navbar-nav mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="btn btn-outline-warning" to="Isaac_Ernest_CV.pdf" target="_blank" download><code>Resume</code></Link>
                             </li>
                         </ul>
                     </div>

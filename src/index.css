@@ -26,11 +26,21 @@ body {
 .navbar-nav .nav-item{
   margin-left: 30px;
 }
-.navbar-nav .nav-item a{
+.navbar-nav .nav-item .nav-link{
+  color: #fff;
   border: 2px solid rgb(120, 120, 120);
 }
-.navbar-nav .nav-item a:hover{
+.navbar-nav .nav-item .nav-link:hover{
   border-bottom: 2px solid orange;
+}
+.navbar-nav .nav-item .btn{
+  color: #ffa500;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .btn:hover{
+  color: #ffa500;
+  background-color: inherit;
+  box-shadow: 3px 3px #ffa500;
 }
 .job-title{
   font-size: 30px;
@@ -49,8 +59,19 @@ body {
   color: #fff;
   padding-bottom: 20px;
 }
+
+.home img{
+  width: 100%;
+  border-top: 2px solid #ffa500;
+  border-right: 2px solid #ffa500;
+  padding: 3px;
+}
 .email-phone{
   display: flex;
+}
+.email-phone a{
+  color: #fff;
+  text-decoration: none;
 }
 .email-phone .phone{
   padding-left: 40px;
@@ -65,6 +86,10 @@ body {
   text-align: center;
   background-color: #f0f0f0;
 }
+#about .btn{
+  font-size: 20px;
+}
+
 #skills {
   background-color: #f0f0f0;
   text-align: center;
@@ -75,6 +100,13 @@ body {
   justify-content: space-evenly;
   justify-items: center;
   font-size: 50px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.skill-list:hover{
+  background: #E5E7EB;
 }
 #recent-works{
   background-color: #E5E7EB;
@@ -94,9 +126,25 @@ body {
   background-color: #f0f0f0;
   padding: 40px 0;
 }
+.reach-out{
+  border-top: 2px solid #ffa500;
+  border-left: 2px solid #ffa500;
+  padding: 13px;
+}
+.reach-out a{
+  color: inherit;
+  padding-left: 5px;
+  text-decoration: none;
+}
 
 .form-group{
   margin-bottom: 10px;
+}
+.form-control:focus {
+  border-color: #ffa500;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #f0f0f0;
 }
 
 .alert{
@@ -113,6 +161,7 @@ body {
 }
 .socials p {
   padding: 0 20px;
+  color: #fff;
 }
 .socials a{
   color: #fff;
@@ -124,6 +173,10 @@ body {
 @media only screen and (max-width: 414px) {
   .home{
     padding-top: 40px;
+  }
+
+  .home img{
+    width: 100%;
   }
   .job-title{
     font-size: 25px;

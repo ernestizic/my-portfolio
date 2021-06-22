@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Ernestpic from '../images/ernestpic.jpg'
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPython, FaSass } from 'react-icons/fa';
-import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { DiDjango } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si';
+//import { SiTailwindcss } from 'react-icons/si';
 import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
 import ReactTypingEffect from 'react-typing-effect';
-
+import { motion } from 'framer-motion'; 
 
 
 export const IndexPage = () => {
@@ -31,12 +31,15 @@ export const IndexPage = () => {
                                 check out my previous works
                             </p>
                             <div className='email-phone'>
-                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
-                                <p className='phone'> <AiOutlinePhone style={{color: 'orange', fontSize: '20px'}}/> +2349056696641</p>
+                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> <a href="mailto:webmaster@example.com">ieifeanyichukwu@gmail.com</a></p>
                             </div>
                         </div>
-                        <div className='col-md-5'>
-                            <img src={Ernestpic} alt='pic of ernest' className='img-fluid img-thumbnail'/>
+                        <div className='col-md-5 img-div'>
+                            <motion.img src={Ernestpic} alt='pic of ernest' className='img-fluid'
+                                initial={{opacity: 0}}
+                                animate={{opacity: 1}}
+                                transition={{delay: 1}}
+                            />
                         </div>
                     </div>
                 </div>
@@ -50,7 +53,7 @@ export const IndexPage = () => {
                         and functional code following best practices, and the skills to deliver responsive designs and applications that 
                         meets user's standard. I am an enthusiast and highly motivated learner.</p>
 
-                        <Link className='btn btn-primary' to="Isaac_Ernest_CV.pdf" target="_blank" download>Download Resume</Link>
+                        <Link className='btn btn-outline-warning' to="Isaac_Ernest_CV.pdf" target="_blank" download>Download Resume</Link>
                 </div>
             </div>
 
@@ -66,7 +69,7 @@ export const IndexPage = () => {
                         <p><FaPython style={{color: '#4B8BBE'}}/></p>
                         <p><DiDjango style={{color: '#092e20'}}/></p>
                         <p><FaSass style={{color: '#c69'}}/></p>
-                        <p><SiTailwindcss style={{color: '#60A5FA'}}/></p>
+                        {/*<p><SiTailwindcss style={{color: '#60A5FA'}}/></p> */}
                     </div>
                 </div>
             </div>
@@ -83,11 +86,10 @@ export const IndexPage = () => {
             <div className='container-fluid' id='contactme'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 reach-out'>
                             <h2>Reach Out</h2>
                             <p>Need my services? Reach out to me and let's work together.</p>
-                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> ieifeanyichukwu@gmail.com</p>
-                            <p className='phone'> <AiOutlinePhone style={{color: 'orange', fontSize: '20px'}}/> +2349056696641</p>
+                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/><a href="mailto:webmaster@example.com">ieifeanyichukwu@gmail.com</a></p>
                             <p className='location'> <GoLocation style={{color: 'orange'}}/> Lagos, Nigeria </p>
                         </div>
                         <div className='col-md-6'>
