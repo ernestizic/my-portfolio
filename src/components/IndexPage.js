@@ -9,7 +9,7 @@ import { DiDjango } from 'react-icons/di';
 import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
 import ReactTypingEffect from 'react-typing-effect';
-import { motion } from 'framer-motion'; 
+//import { motion } from 'framer-motion'; 
 
 
 export const IndexPage = () => {
@@ -26,20 +26,16 @@ export const IndexPage = () => {
                                 eraseDelay={10000}
                                 className='job-title'
                             />
-                            <h1>Isaac Ernest Ifeanyichukwu</h1><hr/>
-                            <p>I am a frontend engineer with over a year of experience seeking to expand my technical skills. Feel free to 
+                            <h1 className="animate__animated animate__bounceInDown animate__fast">Isaac Ifeanyichukwu Ernest</h1><hr/>
+                            <p className="animate__animated animate__backInUp">I am a frontend engineer with over a year of experience seeking to expand my technical skills. Feel free to 
                                 check out my previous works
                             </p>
-                            <div className='email-phone'>
-                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> <a href="mailto:webmaster@example.com">ieifeanyichukwu@gmail.com</a></p>
+                            <div className='email-phone animate__animated animate__bounceInDown'>
+                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
                             </div>
                         </div>
                         <div className='col-md-5 img-div'>
-                            <motion.img src={Ernestpic} alt='pic of ernest' className='img-fluid'
-                                initial={{opacity: 0}}
-                                animate={{opacity: 1}}
-                                transition={{delay: 1}}
-                            />
+                            <img src={Ernestpic} alt='pic of ernest' className='img-fluid' />
                         </div>
                     </div>
                 </div>
@@ -89,7 +85,7 @@ export const IndexPage = () => {
                         <div className='col-md-6 reach-out'>
                             <h2>Reach Out</h2>
                             <p>Need my services? Reach out to me and let's work together.</p>
-                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/><a href="mailto:webmaster@example.com">ieifeanyichukwu@gmail.com</a></p>
+                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/><a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
                             <p className='location'> <GoLocation style={{color: 'orange'}}/> Lagos, Nigeria </p>
                         </div>
                         <div className='col-md-6'>

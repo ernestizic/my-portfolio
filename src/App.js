@@ -6,7 +6,7 @@ import kursor from 'kursor';
 
 new kursor({
   type: 1,
-  removeDefaultCursor: false,
+  removeDefaultCursor: true,
   color: '#ffa500'
 });
 

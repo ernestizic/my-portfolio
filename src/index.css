@@ -49,11 +49,9 @@ body {
   padding: 30px 0;
   border-bottom: 1px solid rgb(180, 180, 180);
 }
-.navbar-toggler{
-  border-color: rgb(60, 60, 60);
-}
+
 .navbar-toggler-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(60, 60, 60)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .home{
   color: #fff;
@@ -72,6 +70,9 @@ body {
 .email-phone a{
   color: #fff;
   text-decoration: none;
+}
+.email-phone a:hover{
+  text-decoration: underline;
 }
 .email-phone .phone{
   padding-left: 40px;
@@ -113,10 +114,24 @@ body {
   padding: 40px 20px;
 }
 
+.card-row{
+  background: #E5E7EB;
+}
+.card-detail-div{
+  padding-top: 20px;
+}
+.card-details{
+  background: gray;
+  padding: 20px; 
+  color: #f0f0f0; 
+  font-size: 17px;
+}
+
 .project-view-type{
   padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
+  background: #E5E7EB;
 }
 .view-code{
   color: black;
@@ -135,6 +150,9 @@ body {
   color: inherit;
   padding-left: 5px;
   text-decoration: none;
+}
+.reach-out a:hover{
+  text-decoration: underline;
 }
 
 .form-group{
