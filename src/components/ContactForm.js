@@ -11,9 +11,17 @@ export const ContactForm = () => {
         .then((result) => {
             console.log(result.text);
             setStatus({type: 'success'});
+            setTimeout(() => {
+                setStatus({type: 'success'});
+                setStatus(undefined);
+            }, 3000);
         }, (error) => {
             console.log(error.text);
             setStatus({type: 'error', error})
+            setTimeout(() => {
+                setStatus({type: 'error', error});
+                setStatus(undefined);
+            }, 3000);
         });
         e.target.reset()
     }
