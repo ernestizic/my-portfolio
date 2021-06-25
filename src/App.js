@@ -5,7 +5,7 @@ import { Footer } from './components/Footer';
 import kursor from 'kursor';
 
 new kursor({
-  type: 1,
+  type: 3,
   removeDefaultCursor: true,
   color: '#ffa500'
 });

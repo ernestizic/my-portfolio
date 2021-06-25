@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Ernestpic from '../images/ernestpic.jpg'
+import Ernestpic from '../images/IMG_20181028_124431_7.jpg'
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPython, FaSass } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
@@ -35,7 +35,7 @@ export const IndexPage = () => {
                             </div>
                         </div>
                         <div className='col-md-5 img-div'>
-                            <img src={Ernestpic} alt='pic of ernest' className='img-fluid' />
+                            <img src={Ernestpic} alt='pic of ernest' className='img-fluid float-end'/>
                         </div>
                     </div>
                 </div>
