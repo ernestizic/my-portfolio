@@ -6,6 +6,7 @@ import Calculator from '../images/ernest-calc.png';
 import Bookstore from '../images/bookstore.png';
 import Ernestshop from '../images/ernestshop.png';
 import Githubusers from '../images/searchgit.png';
+import randomusers from '../images/random-users.png';
 
 
 export const Carousel = () => {
@@ -42,7 +43,27 @@ export const Carousel = () => {
             </div>
           </div>
 
+
           {/** Second card */}
+          <div className='card container' >
+            <div className='row card-row'>
+              <div className='col-md-6'>
+                <img src={randomusers} alt="Pic of random users App" style={{width: '100%'}} />
+              </div>
+              <div className='col-md-6 card-detail-div'>
+                <h2>Random User Generator</h2>
+                <p className='card-details'> Random User Generator generates random users using the randomuser.me api</p>
+                <p style={{fontSize: '17px'}}>HTML, Sass, React</p>
+              </div>
+            </div>
+            
+            <div className='project-view-type'>
+                <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /></a>
+                <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/></a>
+            </div>
+          </div>
+
+          {/** Third card */}
           <div className='card container'>
             <div className='row card-row'>
               <div className='col-md-6'>
@@ -52,7 +73,7 @@ export const Carousel = () => {
                 <h2>E-commerce App</h2>
                 <p className='card-details'>A frontend e-commerce application. It was built using HTML5, CSS3, React JS, Bootstrap4 and 
                   jQuery.</p>
-                <p style={{fontSize: '17px'}}>HTML, CSS, Js, React</p>
+                <p style={{fontSize: '17px'}}>HTML, CSS, jQuery, React</p>
               </div>
             </div>
 
@@ -62,7 +83,7 @@ export const Carousel = () => {
             </div>
           </div>
 
-          {/** Third card */}
+          {/** Fourth card */}
           <div className='card container'>
             <div className='row card-row'>
               <div className='col-md-6'>
@@ -83,7 +104,8 @@ export const Carousel = () => {
             </div>
           </div>
 
-          {/** Fourth card */}
+
+          {/** Fifth card */}
 
           <div className='card container'>
             <div className='row card-row'>
