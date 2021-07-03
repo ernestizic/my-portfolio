@@ -29,6 +29,24 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <style type="text/css">
+      .loading{
+        background: rgb(60, 60, 60);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+      .loading img{
+        position: relative;
+        top: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -54,5 +72,9 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     </script>
+
+    <div class="loading">
+      <img src='img/128x128.gif' />
+    </div>
   </body>
 </html>

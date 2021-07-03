@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import Ernestpic from '../images/IMG_20181028_124431_7.jpg'
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPython, FaSass } from 'react-icons/fa';
@@ -13,6 +13,14 @@ import ReactTypingEffect from 'react-typing-effect';
 
 
 export const IndexPage = () => {
+
+    useEffect(() => {
+        const loader = document.querySelector('.loading');
+        
+        setTimeout(() => {
+            loader.style.display = 'none'
+        }, 2000);
+    }, [])
     return (
         <div className='index-page'>
             {/* Home */}
