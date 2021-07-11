@@ -38,8 +38,13 @@ export const Carousel = () => {
             </div>
             
             <div className='project-view-type'>
-                <a href='https://github.com/ernestizic/calculator-app' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /></a>
-                <a href='https://ernest-calc.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/></a>
+              <p>
+                <a href='https://github.com/ernestizic/calculator-app' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a> 
+              </p>
+
+              <p>
+                <a href='https://ernest-calc.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              </p>    
             </div>
           </div>
 
@@ -58,8 +63,13 @@ export const Carousel = () => {
             </div>
             
             <div className='project-view-type'>
-                <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /></a>
-                <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/></a>
+              <p>
+                <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a>
+              </p>
+
+              <p>
+                <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              </p>
             </div>
           </div>
 
@@ -71,15 +81,20 @@ export const Carousel = () => {
               </div>
               <div className='col-md-6 card-detail-div'>
                 <h2>E-commerce App</h2>
-                <p className='card-details'>A frontend e-commerce application. It was built using HTML5, CSS3, React JS, Bootstrap4 and 
+                <p className='card-details'>A frontend e-commerce application. It was built using HTML5, CSS3, React JS, Bootstrap and 
                   jQuery.</p>
                 <p style={{fontSize: '17px'}}>HTML, CSS, jQuery, React</p>
               </div>
             </div>
 
             <div className='project-view-type'>
-                <a href='https://github.com/ernestizic/e-shop' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/></a>
-                <a href='https://ernestshop.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/></a>
+              <p>
+                <a href='https://github.com/ernestizic/e-shop' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/><p>Code</p></a>
+              </p>
+
+              <p>
+                <a href='https://ernestshop.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              </p>
             </div>
           </div>
 
@@ -90,17 +105,21 @@ export const Carousel = () => {
                 <img src={Bookstore} alt="Pic of Bookstore App" style={{width: '100%'}} />
               </div>
               <div className='col-md-6 card-detail-div'>
-                <h2>itbook.store Clone App</h2>
-                <p className='card-details'>A frontend react application that is built using itbook.store api (api.itbook.store) 
-                  to show my understanding of working with RESTful APIs while working with React. This frontend application was also 
-                  implemented using react Context API to manage state.</p>
+                <h2>itbook.store</h2>
+                <p className='card-details'>A react application that is built using itbook.store api (api.itbook.store). This frontend 
+                  application uses Context API to manage state.</p>
                 <p style={{fontSize: '17px'}}>HTML, CSS, Js, React</p>
               </div>
             </div>
 
             <div className='project-view-type'>
-              <a href='https://github.com/ernestizic/book-store' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/></a>
-              <a href='https://ernestit-bookstore.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/></a>
+              <p>
+                <a href='https://github.com/ernestizic/book-store' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/><p>Code</p></a>
+              </p>
+
+              <p>
+                <a href='https://ernestit-bookstore.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              </p>
             </div>
           </div>
 
@@ -121,8 +140,13 @@ export const Carousel = () => {
             </div>
 
             <div className='project-view-type'>
-              <a href='https://github.com/ernestizic/github-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /></a>
-                <a href='https://searchgit-profile.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site' /></a>
+              <p>
+                <a href='https://github.com/ernestizic/github-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a>
+              </p>
+
+              <p>
+                <a href='https://searchgit-profile.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site' /><p>Live</p></a>
+              </p>
             </div>
           </div>
 

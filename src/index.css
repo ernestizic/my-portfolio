@@ -6,6 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 body {
   font-family: 'Benne', serif;
   font-size: 20px;
@@ -130,6 +133,11 @@ a:hover{
   justify-content: space-evenly;
   background: #E5E7EB;
 }
+.project-view-type p{
+  margin-left: -6px;
+  font-size: 15px;
+  color: black;
+}
 .view-code{
   color: black;
 }
@@ -190,6 +198,9 @@ a:hover{
 .socials a:hover{
   color: black;
 }
+input[type=submit]:hover {
+  background-color: #ffa500;;
+}
 
 
 @media only screen and (max-width: 414px) {
@@ -219,5 +230,8 @@ a:hover{
   }
   #submit-btn{
     width: 100%;
+  }
+  .project-view-type p{
+    font-size: 12px;
   }
 }
