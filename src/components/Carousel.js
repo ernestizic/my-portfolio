@@ -38,12 +38,16 @@ export const Carousel = () => {
             </div>
             
             <div className='project-view-type'>
-              <p>
-                <a href='https://github.com/ernestizic/calculator-app' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a> 
+              <p title='view code' >
+                <a href='https://github.com/ernestizic/calculator-app' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a> 
               </p>
 
-              <p>
-                <a href='https://ernest-calc.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              <p title='view site'>
+                <a href='https://ernest-calc.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
               </p>    
             </div>
           </div>
@@ -57,18 +61,22 @@ export const Carousel = () => {
               </div>
               <div className='col-md-6 card-detail-div'>
                 <h2>Random User Generator</h2>
-                <p className='card-details'> Random User Generator generates random users using the randomuser.me api</p>
+                <p className='card-details'> Random User Generator generates and searches for random users using the randomuser.me api</p>
                 <p style={{fontSize: '17px'}}>HTML, Sass, React</p>
               </div>
             </div>
             
             <div className='project-view-type'>
-              <p>
-                <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a>
+              <p title='view code'>
+                <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a>
               </p>
 
-              <p>
-                <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              <p title='view site'>
+                <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
               </p>
             </div>
           </div>
@@ -88,12 +96,16 @@ export const Carousel = () => {
             </div>
 
             <div className='project-view-type'>
-              <p>
-                <a href='https://github.com/ernestizic/e-shop' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/><p>Code</p></a>
+              <p title='view code'>
+                <a href='https://github.com/ernestizic/e-shop' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a>
               </p>
 
-              <p>
-                <a href='https://ernestshop.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              <p title='view site'>
+                <a href='https://ernestshop.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
               </p>
             </div>
           </div>
@@ -113,12 +125,16 @@ export const Carousel = () => {
             </div>
 
             <div className='project-view-type'>
-              <p>
-                <a href='https://github.com/ernestizic/book-store' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code'/><p>Code</p></a>
+              <p title='view code'>
+                <a href='https://github.com/ernestizic/book-store' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a>
               </p>
 
-              <p>
-                <a href='https://ernestit-bookstore.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site'/><p>Live</p></a>
+              <p title='view site'>
+                <a href='https://ernestit-bookstore.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live'/>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
               </p>
             </div>
           </div>
@@ -140,12 +156,16 @@ export const Carousel = () => {
             </div>
 
             <div className='project-view-type'>
-              <p>
-                <a href='https://github.com/ernestizic/github-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' title='view code' /><p>Code</p></a>
+              <p title='view code' >
+                <a href='https://github.com/ernestizic/github-users' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a>
               </p>
 
-              <p>
-                <a href='https://searchgit-profile.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' title='view site' /><p>Live</p></a>
+              <p title='view site' >
+                <a href='https://searchgit-profile.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
               </p>
             </div>
           </div>

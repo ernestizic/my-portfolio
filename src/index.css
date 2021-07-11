@@ -133,11 +133,7 @@ a:hover{
   justify-content: space-evenly;
   background: #E5E7EB;
 }
-.project-view-type p{
-  margin-left: -6px;
-  font-size: 15px;
-  color: black;
-}
+
 .view-code{
   color: black;
 }
@@ -230,8 +226,5 @@ input[type=submit]:hover {
   }
   #submit-btn{
     width: 100%;
-  }
-  .project-view-type p{
-    font-size: 12px;
   }
 }
