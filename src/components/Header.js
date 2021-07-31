@@ -26,7 +26,7 @@ export const Header = () => {
                         </ul>
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="btn btn-outline-warning" href="https://docs.google.com/document/d/1xEWvd1eoNFzWqw34I64GTBOnTAGwcVCeujaWgCs3s54/edit?usp=sharing" target="_blank" rel="noreferrer"><code>Resume</code></a>
+                                <a className="btn btn-outline-warning" href="https://drive.google.com/file/d/1NeBFyge2uFRHYYkkZUBrAKkm9heM1prc/view?usp=sharing" target="_blank" rel="noreferrer"><code>Resume</code></a>
                             </li>
                         </ul>
                     </div>
