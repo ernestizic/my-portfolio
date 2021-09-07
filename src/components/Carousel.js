@@ -7,6 +7,7 @@ import Bookstore from '../images/bookstore.png';
 import Ernestshop from '../images/ernestshop.png';
 import Githubusers from '../images/searchgit.png';
 import randomusers from '../images/random-users.png';
+import shorturl from '../images/url-shortening.png';
 
 
 export const Carousel = () => {
@@ -141,6 +142,36 @@ export const Carousel = () => {
 
 
           {/** Fifth card */}
+
+          <div className='card container'>
+            <div className='row card-row'>
+              <div className='col-md-6'>
+                <img src={shorturl} alt="Pic of URL shortening landing page" style={{width: '100%'}} />
+              </div>
+              <div className='col-md-6 card-detail-div'>
+                <h2>URL Shortening API landing page</h2>
+                <p className='card-details'>Challenge by Frontendmentor to integrate with the shrtcode API to create shortened URLs and 
+                display them like in the given designs.</p>
+                <p style={{fontSize: '17px'}}>HTML, CSS, Js</p>
+              </div>
+            </div>
+
+            <div className='project-view-type'>
+              <p title='view code' >
+                <a href='https://github.com/ernestizic/url-shortner' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
+                </a>
+              </p>
+
+              <p title='view site' >
+                <a href='https://url-cropper.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          {/** sixth card */}
 
           <div className='card container'>
             <div className='row card-row'>
