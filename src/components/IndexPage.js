@@ -35,8 +35,8 @@ export const IndexPage = () => {
                                 className='job-title'
                             />
                             <h1 className="animate__animated animate__bounceInDown animate__fast">Isaac Ifeanyichukwu Ernest</h1><hr/>
-                            <p className="animate__animated animate__backInUp">I am a frontend engineer with over a year of experience seeking to expand my technical skills. Feel free to 
-                                check out my previous works
+                            <p className="animate__animated animate__backInUp">I am a Fullstack Web Developer with the skills to deliver 
+                            Responsive designs and Web applications that meets standards. Feel free to check out my previous works :)
                             </p>
                             <div className='email-phone animate__animated animate__bounceInDown'>
                                 <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
@@ -53,11 +53,11 @@ export const IndexPage = () => {
             <div className='container-fluid' id='about'>
                 <div className='container' style={{borderBottom: '1px solid rgb(120, 120, 120)', padding: '20px 0'}}>
                     <h2>About Me</h2>
-                    <p>I'm a self taught frontend web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
-                        and functional code following best practices, and the skills to deliver responsive designs and applications that 
+                    <p>I'm a self taught web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
+                        and functional code following best practices, delivering responsive designs and applications that 
                         meets user's standard. I am an enthusiast and highly motivated learner.</p>
 
-                        <Link className='btn btn-outline-warning' to="Isaac_Ernest_CV.pdf" target="_blank" download>Download Resume</Link>
+                        <Link className='btn btn-outline-warning' to="Isaac_Ernest_CV.docx" target="_blank" download>Download Resume</Link>
                 </div>
             </div>
 
