@@ -41,14 +41,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code' >
                 <a href='https://github.com/ernestizic/calculator-app' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a> 
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site'>
                 <a href='https://ernest-calc.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>    
             </div>
           </div>
@@ -70,14 +70,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code'>
                 <a href='https://github.com/ernestizic/random-users' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site'>
                 <a href='https://random-users-g.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>
             </div>
           </div>
@@ -99,14 +99,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code'>
                 <a href='https://github.com/ernestizic/e-shop' target='_blank' rel="noreferrer"><FaGithub className='view-code' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site'>
                 <a href='https://ernestshop.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>
             </div>
           </div>
@@ -128,14 +128,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code'>
                 <a href='https://github.com/ernestizic/book-store' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site'>
                 <a href='https://ernestit-bookstore.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live'/>
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>
             </div>
           </div>
@@ -159,14 +159,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code' >
                 <a href='https://github.com/ernestizic/url-shortner' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site' >
                 <a href='https://url-cropper.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>
             </div>
           </div>
@@ -189,14 +189,14 @@ export const Carousel = () => {
             <div className='project-view-type'>
               <p title='view code' >
                 <a href='https://github.com/ernestizic/github-users' target='_blank' rel="noreferrer"><FaGithub className='view-code'/>
-                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Code</p>
               </p>
 
               <p title='view site' >
                 <a href='https://searchgit-profile.netlify.app/' target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
                 </a>
+                  <p style={{fontSize: '15px', color: 'black'}}>Live</p>
               </p>
             </div>
           </div>
