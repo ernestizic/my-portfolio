@@ -7,7 +7,7 @@ import kursor from 'kursor';
 new kursor({
   type: 3,
   removeDefaultCursor: true,
-  color: '#ffa500'
+  color: '#fcd201'
 });
 
 function App() {

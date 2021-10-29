@@ -5,6 +5,7 @@ import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPython, FaSass } from 'reac
 import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { DiDjango } from 'react-icons/di';
+import { AiOutlineArrowUp } from 'react-icons/ai';
 //import { SiTailwindcss } from 'react-icons/si';
 import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
@@ -21,6 +22,12 @@ export const IndexPage = () => {
             loader.style.display = 'none'
         }, 2000);
     }, [])
+
+
+    
+    const goToTop =()=> {
+        window.scrollTo(0, 0)
+    }
     return (
         <div className='index-page'>
             {/* Home */}
@@ -39,7 +46,7 @@ export const IndexPage = () => {
                             Responsive designs and Web applications that meets standards. Feel free to check out my previous works :)
                             </p>
                             <div className='email-phone animate__animated animate__bounceInDown'>
-                                <p className='email'> <AiOutlineMail style={{color: 'orange'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
+                                <p className='email'> <AiOutlineMail style={{color: '#cca114'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
                             </div>
                         </div>
                         <div className='col-md-5 img-div'>
@@ -47,6 +54,7 @@ export const IndexPage = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
 
             {/** About me */}
@@ -57,7 +65,11 @@ export const IndexPage = () => {
                         and functional code following best practices, delivering responsive designs and applications that 
                         meets user's standard. I am an enthusiast and highly motivated learner.</p>
 
-                        <Link className='btn btn-outline-warning' to="Isaac_Ernest_CV.docx" target="_blank" download>Download Resume</Link>
+                        <Link className='btn' to="Isaac_Ernest_CV.docx" target="_blank" download>
+                            Download Resume
+                            <span></span>
+                        </Link>
+                    <div className='ui-dot2'></div>
                 </div>
             </div>
 
@@ -93,8 +105,8 @@ export const IndexPage = () => {
                         <div className='col-md-6 reach-out'>
                             <h2>Reach Out</h2>
                             <p>Need my services? Reach out to me and let's work together.</p>
-                            <p className='email'> <AiOutlineMail style={{color: 'orange'}}/><a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
-                            <p className='location'> <GoLocation style={{color: 'orange'}}/> Lagos, Nigeria </p>
+                            <p className='email'> <AiOutlineMail style={{color: '#fcd201'}}/><a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
+                            <p className='location'> <GoLocation style={{color: '#fcd201'}}/> Lagos, Nigeria </p>
                         </div>
                         <div className='col-md-6'>
                             <ContactForm />
@@ -102,7 +114,13 @@ export const IndexPage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='go-up' onClick={goToTop}> 
+                <AiOutlineArrowUp />
+            </div>
             
         </div>
+        
     )
+
 }

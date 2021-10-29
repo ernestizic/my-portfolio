@@ -40,7 +40,7 @@ export const ContactForm = () => {
             <div className="form-group">
                 <textarea className="form-control" placeholder='Message' name='message' rows="5" required/>
             </div>
-            <input type='submit' className='btn btn-outline-warning' value='Submit' style={{padding: '3px 15px', fontSize: '20px', width: '100%'}} id='submit-btn'/>
+            <input type='submit' className='btn' value='Submit' style={{padding: '3px 15px', fontSize: '20px', width: '100%'}} id='submit-btn'/>
         </form>
         {status?.type ==='success' && (
             <div className="alert alert-success" role="alert" >

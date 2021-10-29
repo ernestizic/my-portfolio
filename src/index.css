@@ -1,71 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
 body {
-  font-family: 'Benne', serif;
+  font-family: "Benne", serif;
   font-size: 20px;
-  background-color: rgb(60, 60, 60);
+  background-color: #212121;
 }
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
-.navbar .navbar-brand {
-  font-family: 'Marck Script', cursive;
-  font-size: 30px;
-  font-weight: bold;
+/* ui dots */
+.ui-dot {
+  width: 50px;
+  background-color: rgb(133, 118, 90);
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  top: 40px;
 }
-.navbar-nav .nav-item{
-  margin-left: 30px;
+#about .ui-dot2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #b4b4b4;
+  position: relative;
+  top: 10px;
 }
-.navbar-nav .nav-item .nav-link{
-  color: #fff;
-  border: 2px solid rgb(60, 60, 60);
-}
-.navbar-nav .nav-item .nav-link:hover{
-  border-bottom: 2px solid orange;
-}
-.navbar-nav .nav-item .btn{
-  color: #ffa500;
-  font-weight: bold;
-}
-.navbar-nav .nav-item .btn:hover{
-  color: #ffa500;
-  background-color: inherit;
-  box-shadow: 3px 3px #ffa500;
-}
-.job-title{
-  font-size: 30px;
-}
-.main-nav{
-  padding: 30px 0;
-  border-bottom: 1px solid rgb(120, 120, 120);
+.go-up{
+  color: red;
+  padding: 20px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(168, 162, 162);
+  opacity: 0.5;
 }
 
-.navbar-toggler-icon{
+
+.navbar .navbar-brand {
+  font-family: "Marck Script", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-nav .nav-item {
+  margin-left: 30px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  border: 2px solid #212121;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #fcd201;
+}
+.navbar-nav .nav-item .btn {
+  color: #fcd201;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .btn:hover {
+  color: #fcd201;
+  background-color: inherit;
+  box-shadow: 3px 3px #fcd201;
+}
+.job-title {
+  font-size: 30px;
+}
+.main-nav {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(189, 168, 129);
+}
+
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.home{
+.home {
   color: #fff;
   padding-bottom: 20px;
 }
 
-.home img{
+.home img {
   width: 70%;
-  border-top: 2px solid #ffa500;
-  border-right: 2px solid #ffa500;
+  border-top: 2px solid #fcd201;
+  border-right: 2px solid #fcd201;
   padding: 3px;
   border-radius: 50%;
 }
-.email-phone{
+.email-phone {
   display: flex;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -74,20 +102,20 @@ a:hover{
   -ms-user-select: none;
   user-select: none;
 }
-.email-phone a{
+.email-phone a {
   color: #fff;
   text-decoration: none;
 }
-.email-phone a:hover{
+.email-phone a:hover {
   text-decoration: underline;
 }
 
-#about{
+#about {
   padding: 20px 100px;
   text-align: center;
   background-color: #f0f0f0;
 }
-#about .btn{
+#about .btn {
   font-size: 20px;
 }
 
@@ -106,48 +134,48 @@ a:hover{
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-.skill-list:hover{
-  background: #E5E7EB;
+.skill-list:hover {
+  background: #e5e7eb;
 }
-#recent-works{
-  background-color: #E5E7EB;
+#recent-works {
+  background-color: #e5e7eb;
   padding: 40px 20px;
 }
 
-.card-row{
-  background: #E5E7EB;
+.card-row {
+  background: #e5e7eb;
 }
-.card-detail-div{
+.card-detail-div {
   padding-top: 20px;
 }
-.card-details{
+.card-details {
   background: gray;
-  padding: 20px; 
-  color: #f0f0f0; 
+  padding: 20px;
+  color: #f0f0f0;
   font-size: 17px;
 }
 
-.project-view-type{
+.project-view-type {
   padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
-  background: #E5E7EB;
+  background: #e5e7eb;
 }
 
-.view-code{
+.view-code {
   color: black;
 }
 
-#contactme{
+#contactme {
   background-color: #f0f0f0;
   padding: 40px 0;
 }
-.reach-out{
-  border-top: 2px solid #ffa500;
-  border-left: 2px solid #ffa500;
+.reach-out {
+  border-top: 2px solid #fcd201;
+  border-left: 2px solid #fcd201;
   padding: 13px;
 }
-.reach-out a{
+.reach-out a {
   color: inherit;
   padding-left: 5px;
   text-decoration: none;
@@ -158,25 +186,25 @@ a:hover{
   -ms-user-select: none;
   user-select: none;
 }
-.reach-out a:hover{
+.reach-out a:hover {
   text-decoration: underline;
 }
 
-.form-group{
+.form-group {
   margin-bottom: 10px;
 }
 .form-control:focus {
-  border-color: #ffa500;
+  border-color: #fcd201;
   -webkit-box-shadow: none;
   box-shadow: none;
   background-color: #f0f0f0;
 }
 
-.alert{
+.alert {
   margin-top: 10px;
 }
 
-.footer{
+.footer {
   text-align: center;
 }
 .socials {
@@ -188,43 +216,89 @@ a:hover{
   padding: 0 20px;
   color: #fff;
 }
-.socials a{
+.socials a {
   color: #fff;
 }
-.socials a:hover{
+.socials a:hover {
   color: black;
 }
-input[type=submit]:hover {
-  background-color: #ffa500;;
+input[type="submit"]:hover {
+  background-color: #fcd201;
 }
+
+
+/* Button */
+.btn {
+  padding: 5px 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #cca114;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.7s;
+  border-radius: 30px;
+  border: 1px solid #cca114;
+  box-shadow: inset 0 0 0 0 #cca114;
+ }
+ 
+ .btn:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #cca114;
+ }
+ 
+ .btn:active {
+  transform: scale(0.9);
+ }
+
+
 
 
 @media only screen and (max-width: 414px) {
-  .home{
+  /* ui dots */
+  .ui-dot {
+    width: 50px;
+    background-color: rgb(133, 118, 90);
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    top: 70px;
+    right: 55px;
+    z-index: -1;
+  }
+  #about .ui-dot2 {
+    position: absolute;
+    right: 10px;
+    background-color: #a39494;
+    top: 1100px;
+  }
+
+
+  .home {
     padding-top: 40px;
   }
 
-  .home img{
+  .home img {
     width: 100%;
   }
-  .job-title{
+  .job-title {
     font-size: 25px;
   }
 
-  .email-phone{
+  .email-phone {
     display: initial;
   }
-  .email-phone .phone{
+  .email-phone .phone {
     padding: 0;
   }
-  #about{
+  #about {
     padding: 20px;
-    text-align:initial;
+    text-align: initial;
   }
   .skill-list {
     font-size: 30px;
   }
-  #submit-btn{
+  #submit-btn {
     width: 100%;
   }
 }
