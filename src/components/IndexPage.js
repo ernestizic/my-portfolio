@@ -5,6 +5,8 @@ import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaPython, FaSass } from 'reac
 import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { DiDjango } from 'react-icons/di';
+import { FaNode } from 'react-icons/fa';
+import { DiMongodb } from 'react-icons/di';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 //import { SiTailwindcss } from 'react-icons/si';
 import { Carousel } from './Carousel';
@@ -32,6 +34,7 @@ export const IndexPage = () => {
         <div className='index-page'>
             {/* Home */}
             <div className='container-fluid home'>
+                <div className='ui-dot'></div>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-7 m-auto'>
@@ -42,7 +45,7 @@ export const IndexPage = () => {
                                 className='job-title'
                             />
                             <h1 className="animate__animated animate__bounceInDown animate__fast">Isaac Ifeanyichukwu Ernest</h1><hr/>
-                            <p className="animate__animated animate__backInUp">I am a Fullstack Web Developer with the skills to deliver 
+                            <p className="animate__animated animate__backInUp">Fullstack Web Developer with the skills to deliver 
                             Responsive designs and Web applications that meets standards. Feel free to check out my previous works :)
                             </p>
                             <div className='email-phone animate__animated animate__bounceInDown'>
@@ -84,6 +87,8 @@ export const IndexPage = () => {
                         <p><FaReact style={{color: '#61DBFB'}}/></p>
                         <p><FaPython style={{color: '#4B8BBE'}}/></p>
                         <p><DiDjango style={{color: '#092e20'}}/></p>
+                        <p><FaNode style={{color: '#68a063'}}/></p>
+                        <p><DiMongodb style={{color: '#68a063'}}/></p>
                         <p><FaSass style={{color: '#c69'}}/></p>
                         {/*<p><SiTailwindcss style={{color: '#60A5FA'}}/></p> */}
                     </div>

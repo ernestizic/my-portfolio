@@ -31,7 +31,6 @@ export const Header = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='ui-dot'></div>
             </nav>
     )
 }
