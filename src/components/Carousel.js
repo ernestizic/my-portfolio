@@ -13,7 +13,6 @@ import shorturl from '../images/url-shortening.png';
 export const Carousel = () => {
     const settings = {
       dots: true,
-      fade: true,
       infinite: true,
       speed: 500,
       autoplay: true,

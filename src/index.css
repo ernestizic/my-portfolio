@@ -30,6 +30,17 @@ a:hover {
   border-right: 1px solid #fcd201;
   top: 90px;
 }
+.ui-dot3 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: 20px;
+  border-radius: 50%;
+  border-top: 1px solid #fcd201;
+  border-right: 1px solid #fcd201;
+  left: 50%;
+  top: 30px;
+}
 #about .ui-dot2 {
   width: 50px;
   height: 50px;

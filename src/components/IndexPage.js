@@ -12,6 +12,7 @@ import { AiOutlineArrowUp } from 'react-icons/ai';
 import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
 import ReactTypingEffect from 'react-typing-effect';
+import Projects from './Projects';
 //import { motion } from 'framer-motion'; 
 
 
@@ -53,7 +54,7 @@ export const IndexPage = () => {
                             </div>
                         </div>
                         <div className='col-md-5 img-div'>
-                            <img src={Ernestpic} alt='pic of ernest' className='img-fluid float-end'/>
+                            <img src={Ernestpic} alt='ernestizic - Isaac Ernest' className='img-fluid float-end'/>
                         </div>
                     </div>
                 </div>
@@ -95,10 +96,12 @@ export const IndexPage = () => {
                 </div>
             </div>
 
+            <Projects />
+
             {/** Recent works  */}
             <div className='container-fluid' id='recent-works'>
                 <div className='container'>
-                    <h2 style={{textAlign: 'center'}}>Recent Works</h2>
+                    {/* <h2 style={{textAlign: 'center'}}>Recent Works</h2> */}
                     <Carousel />
                 </div>
             </div>
