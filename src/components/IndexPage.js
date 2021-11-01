@@ -99,14 +99,14 @@ export const IndexPage = () => {
             <Projects />
 
             {/** Recent works  */}
-            <div className='container-fluid'>
+            <div className='container-fluid' id='recent-works'>
                 <div className='container'>
                     {/* <h2 style={{textAlign: 'center'}}>Recent Works</h2> */}
                     <Carousel />
                 </div>
             </div>
 
-            {/** Contact Me */}
+            {/** about me  */}
             <div className='container-fluid' id='contactme'>
                 <div className='container'>
                     <div className='row'>

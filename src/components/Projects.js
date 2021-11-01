@@ -6,7 +6,7 @@ import randomusers from "../images/random-users.png";
 
 const Projects = () => {
   return (
-    <div className='container-fluid' id='recent-works'>
+    <div className='container-fluid' id='dream-works'>
       <div className='container' style={projectStyle}>
         <div className='ui-dot3'></div>
         <h2 style={projectStyleHead}>Recent Works</h2>
