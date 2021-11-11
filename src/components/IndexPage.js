@@ -8,7 +8,9 @@ import { DiDjango } from 'react-icons/di';
 import { FaNode } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 import { AiOutlineArrowUp } from 'react-icons/ai';
-//import { SiTailwindcss } from 'react-icons/si';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { Carousel } from './Carousel';
 import { ContactForm } from './ContactForm';
 import ReactTypingEffect from 'react-typing-effect';
@@ -39,48 +41,35 @@ export const IndexPage = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-7 m-auto'>
+                            <h2 className="animate__animated animate__bounceInDown animate__fast">Isaac Ifeanyichukwu Ernest</h2>
                             <ReactTypingEffect 
-                                text={["Front-end web developer"]}
+                                text={["Fullstack Web Developer"]}
                                 typingDelay={1000}
                                 eraseDelay={10000}
                                 className='job-title'
                             />
-                            <h1 className="animate__animated animate__bounceInDown animate__fast">Isaac Ifeanyichukwu Ernest</h1><hr/>
-                            <p className="animate__animated animate__backInUp">Fullstack Web Developer with the skills to deliver 
+                            <hr/>
+                            <p className="animate__animated animate__backInUp" id='desc'>Fullstack Web Developer with the skills to deliver 
                             Responsive designs and Web applications that meets standards. Feel free to check out my previous works :)
                             </p>
                             <div className='email-phone animate__animated animate__bounceInDown'>
-                                <p className='email'> <AiOutlineMail style={{color: '#cca114'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p>
+                                <a href='http://twitter.com/ernestizic' target="_blank" rel='noreferrer' ><FaTwitterSquare /></a>
+                                <a href='https://www.linkedin.com/in/isaac-ifeanyichukwu-9b0039205/' target="_blank" rel='noreferrer'><FaLinkedin /></a>
+                                <a href='https://github.com/ernestizic' target="_blank" rel='noreferrer'><FaGithub /></a>
+                                {/* <p className='email'> <AiOutlineMail style={{color: '#cca114'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p> */}
                             </div>
                         </div>
                         <div className='col-md-5 img-div'>
-                            <img src={Ernestpic} alt='ernestizic - Isaac Ernest' className='img-fluid float-end'/>
+                            {/* <img src={Ernestpic} alt='ernestizic - Isaac Ernest' className='img-fluid float-end'/> */}
                         </div>
                     </div>
-                </div>
-                
-            </div>
-
-            {/** About me */}
-            <div className='container-fluid' id='about'>
-                <div className='container' style={{borderBottom: '1px solid rgb(120, 120, 120)', padding: '20px 0'}}>
-                    <h2>About Me</h2>
-                    <p>I'm a self taught web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
-                        and functional code following best practices, delivering responsive designs and applications that 
-                        meets user's standard. I am an enthusiast and highly motivated learner.</p>
-
-                        <Link className='btn' to="Isaac_Ernest_CV.docx" target="_blank" download>
-                            Download Resume
-                            <span></span>
-                        </Link>
-                    <div className='ui-dot2'></div>
                 </div>
             </div>
 
             {/** Skills  */}
             <div className='container-fluid' id='skills'>
                 <div className='container'>
-                    <h2>Skills</h2>  
+                    {/* <h2>Skills</h2>   */}
                     <div className='skill-list'>
                         <p><FaHtml5 style={{color: '#e34c26'}}/></p>
                         <p><FaCss3Alt style={{color: '#264de4'}}/></p>
@@ -105,6 +94,32 @@ export const IndexPage = () => {
                     <Carousel />
                 </div>
             </div>
+
+            {/** About me */}
+            <div className='container-fluid' id='about'>
+                <div className='container' style={{padding: '20px 0'}}>
+                    <div className='row'>
+                        <div className='col-md-6 img-div'>
+                            <img src={Ernestpic} alt='ernestizic - Isaac Ernest' className='img-fluid'/>
+                        </div>
+
+                        <div className='col-md-6 aboutme-texts'>
+                            <h2>About Me</h2>
+                            <p>I'm a self taught web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
+                            and functional code following best practices, delivering responsive designs and applications that 
+                            meets user's standard. I am an enthusiast and highly motivated learner.</p>
+
+                            <Link className='btn' to="Isaac_Ernest_CV.docx" target="_blank" download>
+                                Download Resume
+                                <span></span>
+                            </Link>
+
+                        </div>
+                    </div>
+                    <div className='ui-dot2'></div>
+                </div>
+            </div>
+
 
             {/** about me  */}
             <div className='container-fluid' id='contactme'>

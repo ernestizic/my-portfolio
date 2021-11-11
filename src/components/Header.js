@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <nav className='container-fluid navbar navbar-expand-lg'>
+    <nav className='container-fluid navbar navbar-expand-lg fixed-top'>
       <div className='container main-nav'>
         <Link className='navbar-brand' to='/' style={{ color: "#fff" }}>
           Ernest<span style={{ color: "#fcd201" }}>izic</span>
@@ -31,13 +31,13 @@ export const Header = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#about'>
-                About Me
+              <a className='nav-link' href='#dream-works'>
+                Projects
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#dream-works'>
-                Projects
+              <a className='nav-link' href='#about'>
+                About Me
               </a>
             </li>
             <li className='nav-item'>

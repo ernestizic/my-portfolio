@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap');
+
 
 * {
   margin: 0;
@@ -11,7 +12,7 @@ a {
 }
 body {
   font-family: "Benne", serif;
-  font-size: 20px;
+  font-size: 19px;
   background-color: #212121;
 }
 a:hover {
@@ -21,7 +22,6 @@ a:hover {
 /* ui dots */
 .ui-dot {
   width: 50px;
-  /* background-color: rgb(133, 118, 90); */
   height: 50px;
   position: absolute;
   right: 20px;
@@ -45,9 +45,9 @@ a:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #b4b4b4;
+  background-color: #000;
   position: relative;
-  top: 10px;
+  top: 0;
 }
 .go-up {
   color: red;
@@ -59,16 +59,19 @@ a:hover {
   opacity: 0.5;
 }
 
-.navbar{
-  background-color: #212121;
-  border-bottom: 1px solid rgb(189, 168, 129);
+.navbar {
+  background-color: #000;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+  filter: alpha(opacity=50); /* IE 5-7 */
+  -moz-opacity: 0.5; /* Netscape */
+  -khtml-opacity: 0.5; /* Safari 1.x */
   z-index: 1;
 }
 
-
 .navbar .navbar-brand {
-  font-family: "Marck Script", cursive;
-  font-size: 30px;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 23px;
   font-weight: bold;
 }
 .navbar-nav .nav-item {
@@ -76,10 +79,12 @@ a:hover {
 }
 .navbar-nav .nav-item .nav-link {
   color: #fff;
-  border: 2px solid #212121;
+  /* border: 2px solid #212121; */
 }
 .navbar-nav .nav-item .nav-link:hover {
-  border-bottom: 2px solid #fcd201;
+  /* border-bottom: 2px solid #fcd201; */
+  text-decoration: underline;
+  color: #cca114;
 }
 .navbar-nav .nav-item .btn {
   color: #fcd201;
@@ -91,9 +96,8 @@ a:hover {
   box-shadow: 3px 3px #fcd201;
 }
 .job-title {
-  font-size: 30px;
+  font-size: 25px;
 }
-
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -101,7 +105,11 @@ a:hover {
 .home {
   color: #fff;
   padding-bottom: 20px;
-  margin-top: 80px;
+  padding-top: 200px;
+  background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/image.png);
+  background-size: cover;
 }
 
 .home img {
@@ -110,6 +118,13 @@ a:hover {
   border-right: 2px solid #fcd201;
   padding: 3px;
   border-radius: 50%;
+}
+.home h2 {
+  color: #cca114;
+  font-family: "Red Hat Mono", monospace;
+}
+#desc {
+  text-align: justify;
 }
 .email-phone {
   display: flex;
@@ -121,6 +136,7 @@ a:hover {
   user-select: none;
 }
 .email-phone a {
+  padding-right: 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -128,13 +144,42 @@ a:hover {
   text-decoration: underline;
 }
 
+#about img {
+  width: 70%;
+  border-top: 2px solid #574b10;
+  border-right: 2px solid #61520a;
+  padding: 3px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
 #about {
-  padding: 20px 100px;
-  text-align: center;
-  background-color: #f0f0f0;
+  padding: 20px 130px;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/4108621.jpg);
+  background-size: cover;
 }
 #about .btn {
   font-size: 20px;
+}
+.img-div{
+  margin-top: 20px;
+}
+.aboutme-texts{
+  padding: 30px;
+  background: #212121;
+  border: 1px solid rgb(68, 67, 67);
+  text-align: justify;
+}
+
+.date{
+  background: #000;
+  color: #ea5252;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 #skills {
@@ -146,7 +191,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #f0f0f0;
+  background-color: #d9d4e4;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
@@ -259,7 +304,7 @@ input[type="submit"]:hover {
   background: transparent;
   cursor: pointer;
   transition: ease-out 0.7s;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px solid #cca114;
   box-shadow: inset 0 0 0 0 #cca114;
 }
@@ -273,19 +318,26 @@ input[type="submit"]:hover {
   transform: scale(0.9);
 }
 
-
 @media only screen and (max-width: 414px) {
   /* ui dots */
 
   #about .ui-dot2 {
     position: absolute;
     right: 10px;
-    background-color: #a39494;
-    top: 1100px;
+    top: 1200px;
+    background-color: rgba(226, 226, 3, 0.1);
+  }
+  .img-div{
+    margin: auto;
+    padding-left: 40px;
+  }
+  #about img {
+    width: 80%;
+    padding: 10px;
   }
 
   .home {
-    padding-top: 40px;
+    padding-top: 140px;
   }
 
   .home img {

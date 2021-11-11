@@ -3,13 +3,16 @@ import iblogpic from "../images/iblognews-min.png";
 import { GiPentarrowsTornado } from "react-icons/gi";
 import shorturl from "../images/url-shortening.png";
 import randomusers from "../images/random-users.png";
+import moment from "moment";
 
 const Projects = () => {
+  const formatDate = moment().format('dddd, Do MMMM YYYY');
   return (
     <div className='container-fluid' id='dream-works'>
       <div className='container' style={projectStyle}>
         <div className='ui-dot3'></div>
         <h2 style={projectStyleHead}>Recent Works</h2>
+        <div className='date'> {formatDate} </div>
         <div className='row'>
           {/* One */}
           <div className='col-lg-4 card' style={projectStyleCol}>
