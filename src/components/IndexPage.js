@@ -104,7 +104,7 @@ export const IndexPage = () => {
                         </div>
 
                         <div className='col-md-6 aboutme-texts'>
-                            <h2>About Me</h2>
+                            <h2><span>About</span> Me</h2>
                             <p>I'm a self taught web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
                             and functional code following best practices, delivering responsive designs and applications that 
                             meets user's standard. I am an enthusiast and highly motivated learner.</p>
