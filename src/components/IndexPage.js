@@ -105,7 +105,7 @@ export const IndexPage = () => {
 
                         <div className='col-md-6 aboutme-texts'>
                             <h2><span>About</span> Me</h2>
-                            <p>I'm a self taught web developer living in Lagos, Nigeria. I have over a year of experience in writing maintainable 
+                            <p>I'm a self taught web developer living in Lagos, Nigeria. I have over 3 years of experience in writing maintainable 
                             and functional code following best practices, delivering responsive designs and applications that 
                             meets user's standard. I am an enthusiast and highly motivated learner.</p>
 
