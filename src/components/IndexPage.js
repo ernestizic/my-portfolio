@@ -109,7 +109,7 @@ export const IndexPage = () => {
                             and functional code following best practices, delivering responsive designs and applications that 
                             meets user's standard. I am an enthusiast and highly motivated learner.</p>
 
-                            <Link className='btn' to="Isaac_Ernest_CV.docx" target="_blank" download>
+                            <Link className='btn' to="FS Isaac_Ifeanyi_Ernest_CV.pdf" target="_blank" download>
                                 Download Resume
                                 <span></span>
                             </Link>
