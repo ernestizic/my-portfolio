@@ -54,7 +54,7 @@ export const IndexPage = () => {
                             </p>
                             <div className='email-phone animate__animated animate__bounceInDown'>
                                 <a href='http://twitter.com/ernestizic' target="_blank" rel='noreferrer' ><FaTwitterSquare /></a>
-                                <a href='https://www.linkedin.com/in/isaac-ifeanyichukwu-9b0039205/' target="_blank" rel='noreferrer'><FaLinkedin /></a>
+                                <a href='https://www.linkedin.com/in/ernestizic' target="_blank" rel='noreferrer'><FaLinkedin /></a>
                                 <a href='https://github.com/ernestizic' target="_blank" rel='noreferrer'><FaGithub /></a>
                                 {/* <p className='email'> <AiOutlineMail style={{color: '#cca114'}}/> <a href="mailto:ieifeanyichukwu@gmail.com">ieifeanyichukwu@gmail.com</a></p> */}
                             </div>
