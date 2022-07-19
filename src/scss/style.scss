@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
 
 
 * {
@@ -211,13 +212,26 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/4108621.jpg);
   background-size: cover;
 
+  h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    padding: 20px 0;
+  }
+  .name{
+    color: #cca114;
+  }
+
+  .img-div{
+    text-align: center;
+    padding-top: 10px;
+  }
   img {
     width: 70%;
-    border-top: 2px solid #574b10;
-    border-right: 2px solid #61520a;
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 40px;
-    padding: 3px;
+    // border-top: 2px solid #574b10;
+    // border-right: 2px solid #61520a;
+    border-radius: 20px;
+    // padding: 3px;
   }
   .btn {
     font-size: 20px;
@@ -225,13 +239,11 @@ a:hover {
 }
 
 .aboutme-texts{
+  border-radius: 5px;
   padding: 30px;
   background: #212121;
   border: 1px solid rgb(68, 67, 67);
   text-align: justify;
-  span{
-    color: #cca114;
-  }
 }
 
 .date{
@@ -345,12 +357,12 @@ a:hover {
   padding: 20px;
   p {
     padding: 0 20px;
-    color: #fff;
+    color: #999;
   }
   a {
-    color: #fff;
+    color: #999;
     &:hover {
-        color: black;
+        color: #fff;
       }
   }
 }
@@ -432,6 +444,9 @@ input[type="submit"]:hover {
         padding: 10px;
       }
   }
+//   .aboutme-texts{
+//     margin: 40px;
+// }
 
   .job-title {
     font-size: 25px;

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Ernestpic from '../images/IMG_20181028_124431_7.jpg';
+import Ernestpic from '../images/IMG_20220325_131338_3-min.jpg';
 
 const About = () => {
 	return (
 		<div className='container-fluid' id='about'>
+			<h2>Who is <span className='name'>Ernest Isaac?</span></h2>
 			<div className='container' style={{ padding: '20px 0' }}>
 				<div className='row'>
 					<div className='col-md-6 img-div'>
@@ -16,9 +17,9 @@ const About = () => {
 					</div>
 
 					<div className='col-md-6 aboutme-texts'>
-						<h2>
+						{/* <h2>
 							<span>About</span> Me
-						</h2>
+						</h2> */}
 						<p>
 							I'm a self taught web developer living in Lagos, Nigeria. I have
 							over 3 years of experience in writing maintainable and functional
@@ -29,7 +30,7 @@ const About = () => {
 
 						<Link
 							className='btn'
-							to='FS Isaac_Ifeanyi_Ernest_CV.pdf'
+							to='Resume-Isaac_Ernest_Ifeanyi.pdf'
 							target='_blank'
 							download
 						>
