@@ -25,12 +25,6 @@ export const IndexPage = () => {
         }
 	}, []);
 
-	useEffect(() => {
-		const loader = document.querySelector('.loading');
-		setTimeout(() => {
-			loader.style.display = 'none';
-		}, 2000);
-	}, []);
 
 	const goToTop = () => {
 		window.scrollTo(0, 0);

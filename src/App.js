@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
-import { Header } from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { IndexPage } from "./components/IndexPage";
-import { Footer } from './components/Footer';
 import kursor from 'kursor';
-import ProgressBar from "react-scroll-progress-bar";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import AppLayout from "./components/AppLayout";
+import NotFound from "./components/NotFound";
 
 new kursor({
   type: 3,
@@ -18,16 +17,22 @@ function App() {
   useEffect(() => {
 		Aos.init({ duration: 1000 });
 	}, []);
+
+  useEffect(() => {
+		const loader = document.querySelector('.loading');
+		setTimeout(() => {
+			loader.style.display = 'none';
+		}, 2000);
+	}, []);
+  
   return (
     <BrowserRouter>
-      <div className="App">
-        <Header />
-        <ProgressBar bgcolor="#fcd201" duration="1"/>
-        <Route path='/'>
-          <IndexPage />
+      <Routes>
+        <Route path='/' element={ <AppLayout /> }>
+          <Route index element={ <IndexPage /> } />
         </Route>
-        <Footer />
-    </div>
+        <Route path='*' element={ <NotFound /> } />
+      </Routes>
     </BrowserRouter>
   );
 }
