@@ -48,7 +48,6 @@ export const IndexPage = () => {
 			{/** Recent works  */}
 			<div className='container-fluid' id='recent-works'>
 				<div className='container'>
-					{/* <h2 style={{textAlign: 'center'}}>Recent Works</h2> */}
 					<Carousel />
 				</div>
 			</div>

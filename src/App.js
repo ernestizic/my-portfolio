@@ -1,9 +1,12 @@
+import { useEffect } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { IndexPage } from "./components/IndexPage";
-import { BrowserRouter, Route } from "react-router-dom";
 import { Footer } from './components/Footer';
 import kursor from 'kursor';
 import ProgressBar from "react-scroll-progress-bar";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 new kursor({
   type: 3,
@@ -12,6 +15,9 @@ new kursor({
 });
 
 function App() {
+  useEffect(() => {
+		Aos.init({ duration: 1000 });
+	}, []);
   return (
     <BrowserRouter>
       <div className="App">

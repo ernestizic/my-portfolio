@@ -20,7 +20,7 @@ export const Carousel = () => {
         <Slider {...settings}>
           {/** card */}
           {portfolioData?.slice(0, 6).map(data => (
-            <div className='card container' >
+            <div className='card container' key={data.id}>
               <div className='row card-row'>
                 <div className='col-md-6'>
                   <img src={data.projectImage} alt={data.imgAlt} style={{width: '100%'}} />

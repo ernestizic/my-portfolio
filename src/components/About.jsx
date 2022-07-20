@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className='container-fluid' id='about'>
 			<h2>Who is <span className='name'>Ernest Isaac?</span></h2>
-			<div className='container' style={{ padding: '20px 0' }}>
+			<div className='container' data-aos="zoom-in" style={{ padding: '20px 0' }}>
 				<div className='row'>
 					<div className='col-md-6 img-div'>
 						<img

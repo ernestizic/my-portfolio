@@ -11,7 +11,7 @@ const Projects = () => {
         <div className='ui-dot3'></div>
         <h2 style={projectStyleHead}>Recent Works</h2>
         <div className='date'> {formatDate} </div>
-        <div className='project-container'>
+        <div className='project-container' data-aos="fade-up" data-aos-anchor-placement="top-center">
           {portfolioData?.slice(0, 3).map((data, idx) => (
             <div className='card' key={data.id}>
               <img

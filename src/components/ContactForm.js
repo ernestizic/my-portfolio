@@ -74,7 +74,7 @@ export const ContactForm = () => {
         )}
         {status?.type ==='error' && (
             <div className="alert alert-danger" role="alert" >
-                Message failed to send
+                Service temporary unavailable
             </div>
         )}
         </>
