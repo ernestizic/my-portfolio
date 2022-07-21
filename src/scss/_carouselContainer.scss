@@ -1,0 +1,30 @@
+#carousel-works {
+    background-color: $color-light;
+    padding: 40px 20px;
+  }
+  
+  .card-row {
+    background: $color-light;
+  }
+  .card-detail-div {
+    padding-top: 20px;
+  }
+  .card-details {
+    border-radius: 8px;
+    background: $color-dark;
+    padding: 20px;
+    color: $color-light;
+    font-size: 17px;
+  }
+  
+  .project-view-type {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background: $color-light;
+  }
+  
+  .view-icon {
+    color: $color-black;
+    margin-right: 10px;
+  }

@@ -6,8 +6,8 @@ export const Header = () => {
     <nav className='container-fluid navbar navbar-expand-lg fixed-top'>
       <div className='container main-nav'>
         <Link className='navbar-brand' to='/' style={{ color: "#fff" }}>
-          Ernest<span style={{ color: "#fcd201" }}>izic</span>
-          <span style={{ color: "orange", fontSize: "30px" }}> .</span>
+          Ernest<span className="focused-color">izic</span>
+          <span className='focused-color' style={{ fontSize: "30px" }}> .</span>
         </Link>
         <span
           className='navbar-toggler'

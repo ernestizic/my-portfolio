@@ -1,0 +1,45 @@
+
+#dream-works{
+    overflow: hidden;
+    .project-container {
+      padding: 12px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem 1rem;
+  
+      .card{
+        background: #333333;
+        transition: transform .3s;
+        border: 8px solid $color-dark;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img{
+          border-top: 3px solid $color-secondary;
+        }
+      }
+    }
+}
+
+.date{
+    background: $color-black;
+    color: darken($color-secondary, 15%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+@media only screen and (max-width: 414px) {
+    #dream-works{
+      .project-container {
+        padding: 12px 0;
+        grid-template-columns: repeat(1, 1fr);
+    
+        .card{
+          border: 2px solid $color-dark;
+        }
+      }
+    }
+}

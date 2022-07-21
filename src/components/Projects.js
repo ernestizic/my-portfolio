@@ -51,7 +51,6 @@ const cardBody = {
   color: "#fff",
 };
 const cardlink = {
-  color: "#fcd201",
   fontSize: "15px",
 };
 

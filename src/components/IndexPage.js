@@ -40,7 +40,7 @@ export const IndexPage = () => {
 			<Projects />
 
 			{/** Recent works  */}
-			<div className='container-fluid' id='recent-works'>
+			<div className='container-fluid' id='carousel-works'>
 				<div className='container'>
 					<Carousel />
 				</div>

@@ -34,15 +34,17 @@ export const Carousel = () => {
               
               <div className='project-view-type'>
                 <p title='view code' >
-                  <a href={data.githubUrl} target='_blank' rel="noreferrer"><FaGithub className='view-code' />
-                  </a> 
+                  <a href={data.githubUrl} target='_blank' rel="noreferrer">
+                    <FaGithub className='view-icon' />
                     <span style={{fontSize: '15px', color: 'black'}}>Code</span>
+                  </a> 
                 </p>
 
                 <p title='view site'>
-                  <a href={data.url} target='_blank' rel="noreferrer"><BsBoxArrowUpRight className='view-live' />
-                  </a>
+                  <a href={data.url} target='_blank' rel="noreferrer">
+                    <BsBoxArrowUpRight className='view-icon' />
                     <span style={{fontSize: '15px', color: 'black'}}>Live</span>
+                  </a>
                 </p>    
               </div>
             </div>

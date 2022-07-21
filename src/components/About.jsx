@@ -5,7 +5,7 @@ import Ernestpic from '../images/IMG_20220325_131338_3-min.jpg';
 const About = () => {
 	return (
 		<div className='container-fluid' id='about'>
-			<h2>Who is <span className='name'>Ernest Isaac?</span></h2>
+			<h2>Who is <span className='focused-color'>Ernest Isaac?</span></h2>
 			<div className='container' data-aos="zoom-in" style={{ padding: '20px 0' }}>
 				<div className='row'>
 					<div className='col-md-6 img-div'>

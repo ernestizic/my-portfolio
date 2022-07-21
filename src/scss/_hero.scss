@@ -1,0 +1,111 @@
+
+.home {
+    position: relative;
+    color: $color-white;
+    padding-bottom: 20px;
+    padding-top: 210px;
+    height: 100vh;
+    background-color: $color-black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images//image.png);
+    background-size: cover;
+    /* background-position: center; */
+        // img {
+      //     width: 70%;
+      //     border-top: 2px solid $color-secondary;
+      //     border-right: 2px solid $color-secondary;
+      //     padding: 3px;
+      //     border-radius: 50%;
+      //   }
+    h2 {
+      color: darken($color-secondary, 10%);
+      font-size: 40px;
+      font-family: "Red Hat Mono", monospace;
+    }
+  }
+  
+  .job-title {
+    font-size: 25px;
+    color: darken($color-light, 20%);
+  }
+  
+  #desc {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .email-phone {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 50px;
+    a {
+      border-radius: 50%;
+      border: 1px solid $color-white;
+      margin: 10px 0;
+      padding: 10px 12px 2px;
+      color: #000;
+      background-color: $color-white;
+      text-decoration: none;
+      position: relative;
+      transition: transform 0.3s ease;
+      transform: translateX(0px);
+      &:hover {
+        transform: translateX(-10px);
+        border-color: $color-secondary;
+        background: inherit;
+        color: $color-white;
+      }
+    }
+  }
+  .indicator{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+      }
+      40% {
+          transform: translateY(-30px);
+      }
+      60% {
+          transform: translateY(-15px);
+      }
+  }
+
+@media only screen and (max-width: 414px) {    
+
+.home {
+    background-position: center;
+    /* background-size: contain; */
+    img {
+        width: 100%;
+    }
+}
+.email-phone {
+    float: none;
+    flex-direction: row;
+    margin: 0;
+    a {
+        margin: 0 5px 0 0; 
+        transform: translateY(0px);
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
+.indicator{
+    display: none;
+}
+
+}

@@ -1,0 +1,49 @@
+
+#contactme {
+    background-color: $color-light;
+    padding: 40px 0;
+  }
+  .reach-out {
+    border-top: 2px solid $color-secondary;
+    border-left: 2px solid $color-secondary;
+    padding: 13px;
+  
+    a {
+      color: inherit;
+      padding-left: 5px;
+      text-decoration: none;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      &:hover{
+          text-decoration: underline;
+      }
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .form-control:focus {
+    border-color: $color-secondary;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: $color-light;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: $color-secondary;
+  }
+  
+.alert {
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 414px) {
+    #submit-btn {
+      width: 100%;
+    }
+}
