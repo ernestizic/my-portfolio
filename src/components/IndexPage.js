@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import { Carousel } from './Carousel';
+import { CarouselComponent } from './CarouselComponent';
 import { Contact } from './Contact';
 import Hero from './Hero';
 import Skills from './Skills';
@@ -40,11 +40,7 @@ export const IndexPage = () => {
 			<Projects />
 
 			{/** Recent works  */}
-			<div className='container-fluid' id='carousel-works'>
-				<div className='container'>
-					<Carousel />
-				</div>
-			</div>
+			<CarouselComponent />
 
 			{/** About me */}
 			<About />

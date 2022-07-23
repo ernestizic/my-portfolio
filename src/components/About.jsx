@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Ernestpic from '../images/IMG_20220325_131338_3-min.jpg';
 
 const About = () => {
 	return (
@@ -10,22 +9,18 @@ const About = () => {
 				<div className='row'>
 					<div className='col-md-6 img-div'>
 						<img
-							src={Ernestpic}
+							src="https://res.cloudinary.com/ernestizic/image/upload/v1658566683/portfolio/IMG_20220325_131338_3-min_p2tfof.jpg"
 							alt='ernestizic - Isaac Ernest'
 							className='img-fluid'
 						/>
 					</div>
 
 					<div className='col-md-6 aboutme-texts'>
-						{/* <h2>
-							<span>About</span> Me
-						</h2> */}
 						<p>
 							I'm a self taught web developer living in Lagos, Nigeria. I have
-							over 3 years of experience in writing maintainable and functional
-							code following best practices, delivering responsive designs and
-							applications that meets user's standard. I am an enthusiast and
-							highly motivated learner.
+							3 years of experience in writing maintainable and functional
+							code following best practices, delivering robust and scalable solutions. 
+							I'm also a highly motivated learner.
 						</p>
 
 						<Link

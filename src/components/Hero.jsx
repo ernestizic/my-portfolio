@@ -1,5 +1,4 @@
 import React from 'react';
-// import { IconContext } from 'react-icons';
 import { FaArrowCircleDown } from 'react-icons/fa';
 import ReactTypingEffect from 'react-typing-effect';
 
@@ -21,14 +20,14 @@ const Hero = () => {
 							className='job-title'
 						/>
 						<hr />
-						<p className='animate__animated animate__backInUp' id='desc'>
-							Fullstack Web Developer with the skills to deliver Responsive
-							designs and Web applications that meets standards. Feel free to
+						<p className='animate__animated animate__fadeInUp' id='desc'>
+							Frontend Web Developer with the skills to deliver fully responsive
+							designs and web applications that meets accessibilty standards. Feel free to
 							check out my previous works :)
 						</p>
 					</div>
 					<div className='col-md-5'>
-						<div className='email-phone animate__animated animate__bounceInDown'>
+						<div className='email-phone animate__animated animate__fadeInRight'>
 							<a
 								href='http://twitter.com/ernestizic'
 								target='_blank'
@@ -36,17 +35,6 @@ const Hero = () => {
 							>
 								<i className='fa fa-twitter' />
 							</a>
-							{/* <IconContext.Provider
-								value={{ className: 'global-class-name' }}
-							>
-								<a
-									href='https://www.linkedin.com/in/ernestizic'
-									target='_blank'
-									rel='noreferrer'
-								>
-									<FaLinkedinIn />
-								</a>
-							</IconContext.Provider> */}
 							<a
 								href='https://github.com/ernestizic'
 								target='_blank'

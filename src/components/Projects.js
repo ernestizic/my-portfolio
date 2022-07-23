@@ -14,10 +14,7 @@ const Projects = () => {
         <div className='project-container' data-aos="fade-up" data-aos-anchor-placement="top-center">
           {portfolioData?.slice(0, 3).map((data, idx) => (
             <div className='card' key={data.id}>
-              <img
-                src={data.projectImage}
-                alt={data.imgAlt}
-              />
+              {data.projectImage}
               <div className='card-body' style={cardBody}>
                 <h5>{data.title}</h5>
                 <p style={{ fontSize: "15px", marginTop: "20px" }}>{data.description}</p>

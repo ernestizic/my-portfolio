@@ -20,9 +20,7 @@ function App() {
 
   useEffect(() => {
 		const loader = document.querySelector('.loading');
-		setTimeout(() => {
-			loader.style.display = 'none';
-		}, 2000);
+    loader.style.display = 'none';
 	}, []);
   
   return (

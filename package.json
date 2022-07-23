@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "3d-react-carousal": "^5.0.0",
     "aos": "^2.3.4",
     "emailjs-com": "^3.1.0",
     "framer-motion": "^4.1.17",
@@ -17,9 +18,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.3",
     "react-scroll-progress-bar": "^1.1.13",
-    "react-slick": "^0.28.1",
+    "react-spring-3d-carousel": "^1.2.1",
     "react-typing-effect": "^2.0.5",
-    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
