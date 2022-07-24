@@ -6,17 +6,16 @@ export const ContactForm = () => {
 
     const sendEmail =(e)=> {
         e.preventDefault();
-
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
         .then((result) => {
-            // console.log(result.text);
+            console.log(result.text);
             setStatus({type: 'success'});
             setTimeout(() => {
                 setStatus({type: 'success'});
                 setStatus(undefined);
             }, 3000);
         }, (error) => {
-            // console.log(error.text);
+            console.log(error.text);
             setStatus({type: 'error', error})
             setTimeout(() => {
                 setStatus({type: 'error', error});
@@ -25,31 +24,6 @@ export const ContactForm = () => {
         });
         e.target.reset()
     }
-
-    // const serviceID = process.env.REACT_APP_SERVICE_ID
-    // const templateID = process.env.REACT_APP_TEMPLATE_ID
-    // const userID = process.env.REACT_APP_USER_ID
-
-    // const sendEmailSec =async(e)=> {
-    //     e.preventDefault();
-    //     try {
-    //         const res = await emailjs.sendForm(serviceID, templateID, e.target, userID)
-    //         console.log(res.text)
-    //         setStatus({type: 'success'});
-    //         setTimeout(() => {
-    //             setStatus({type: 'success'});
-    //             setStatus(undefined);
-    //         }, 3000);
-    //     } catch (err) {
-    //         console.log(err.text)
-    //         setStatus({type: 'error', err})
-    //         setTimeout(() => {
-    //             setStatus({type: 'error', err});
-    //             setStatus(undefined);
-    //         }, 3000);
-    //     }
-    //     e.target.reset()
-    // }
     return (
         <>
         <form onSubmit={sendEmail}>
