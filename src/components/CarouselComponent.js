@@ -3,7 +3,7 @@ import { Carousel } from '3d-react-carousal';
 
 import { portfolioData } from '../data';
 
-export const CarouselComponent = () => {
+const CarouselComponent = () => {
 
 	const gallery = portfolioData?.slice(0, 5).map((data, idx) => {
 		return (
@@ -46,3 +46,5 @@ export const CarouselComponent = () => {
 		</div>
 	);
 };
+
+export default CarouselComponent;

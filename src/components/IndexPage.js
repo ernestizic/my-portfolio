@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import { CarouselComponent } from './CarouselComponent';
-import { Contact } from './Contact';
 import Hero from './Hero';
 import Skills from './Skills';
 import Projects from './Projects';
 import About from './About';
+
+const CarouselComponent = lazy(()=> import('./CarouselComponent'))
+const Contact = lazy(()=> import('./Contact'))
 
 export const IndexPage = () => {
 	const [isButtonVisible, setIsButtonVisible] = useState(false);
@@ -40,13 +41,17 @@ export const IndexPage = () => {
 			<Projects />
 
 			{/** Recent works  */}
-			<CarouselComponent />
+			<Suspense fallback={<div />}>
+				<CarouselComponent />
+			</Suspense>
 
 			{/** About me */}
 			<About />
 
 			{/** contact me  */}
-            <Contact />
+			<Suspense fallback={<div />}>
+            	<Contact />
+			</Suspense>
 
 			{isButtonVisible && (
 				<div className='go-up' onClick={goToTop}>

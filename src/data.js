@@ -2,7 +2,7 @@
 export const portfolioData = [
     {
         id: 1,
-        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658518612/portfolio/iblognews-min_wrlojj.png" alt='iblognews.netlify.app - news app by ernstizic' /> ,
+        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658689282/portfolio/iblognews_mxh7gy.webp" alt='iblognews.netlify.app - news app by ernstizic' /> ,
         title: 'News App',
         description: 'iBlog is a news app for getting latest trends from Sport, Tech, Entertainment...',
         url: 'https://iblognews.netlify.app',
@@ -11,7 +11,7 @@ export const portfolioData = [
     },
     {
         id: 2,
-        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658518610/portfolio/url-shortening_bu7my3.png" alt='url-cropper.netlify.app - shorten url by ernestizic' />,
+        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658676317/portfolio/urlshort_bjsszb.webp" alt='url-cropper.netlify.app - shorten url by ernestizic' />,
         title: 'Shortly',
         description: 'Challenge by Frontendmentor to integrate with the shrtcode API to create shortened URLs and display them like in the given designs.',
         url: 'https://url-cropper.netlify.app',
@@ -38,7 +38,7 @@ export const portfolioData = [
     },
     {
         id: 5,
-        projectImage: <img src='https://res.cloudinary.com/ernestizic/image/upload/v1658518613/portfolio/ernestshop_edjwcr.png' alt='Ernestshop App' /> ,
+        projectImage: <img src='https://res.cloudinary.com/ernestizic/image/upload/v1658689072/portfolio/ernest-shop_xihndw.webp' alt='Ernestshop App' /> ,
         title: 'E-commerce App',
         description: 'A frontend e-commerce application. It was built using HTML5, CSS3, React JS, Bootstrap and jQuery.',
         url: 'https://ernestshop.netlify.app',
@@ -47,7 +47,7 @@ export const portfolioData = [
     },
     {
         id: 6,
-        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658518612/portfolio/bookstore_bp4q45.png" alt='Bookstore App' />,
+        projectImage: <img src="https://res.cloudinary.com/ernestizic/image/upload/v1658676167/portfolio/bookstore_aqmj88.webp" alt='Bookstore App' />,
         title: 'itbook.store',
         description: 'A react application that is built using itbook.store api (api.itbook.store). This frontend application uses Context API to manage state.',
         url: 'https://ernestit-bookstore.netlify.app/',

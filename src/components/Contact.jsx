@@ -3,7 +3,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { ContactForm } from './ContactForm';
 
-export const Contact = () => {
+const Contact = () => {
 	return (
 		<div className='container-fluid' id='contactme'>
 			<div className='container'>
@@ -31,3 +31,4 @@ export const Contact = () => {
 		</div>
 	);
 };
+export default Contact;

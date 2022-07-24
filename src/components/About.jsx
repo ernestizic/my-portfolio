@@ -9,7 +9,7 @@ const About = () => {
 				<div className='row'>
 					<div className='col-md-6 img-div'>
 						<img
-							src="https://res.cloudinary.com/ernestizic/image/upload/v1658566683/portfolio/IMG_20220325_131338_3-min_p2tfof.jpg"
+							src="https://res.cloudinary.com/ernestizic/image/upload/v1658688446/portfolio/isaac-ernest_gwbi67.webp"
 							alt='ernestizic - Isaac Ernest'
 							className='img-fluid'
 						/>
